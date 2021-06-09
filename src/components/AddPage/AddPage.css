@@ -1,0 +1,44 @@
+#addPage {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    height: 100vh;
+}
+
+#addPage__titles {
+    display: flex;
+    width: 333.18px;
+    justify-content: space-around;
+}
+
+#addPage__form {
+    width: 333.18px;
+}
+
+.addPage__field {
+    display: flex;
+    width: 333.18px;    
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.addPage__input {
+    margin-right: 1vw;
+}
+
+#addPage__button-area {
+    width: 333.18px;    
+    display: flex;
+    justify-content: center;
+}
+
+#addPage__button {
+    margin-top: 4px;
+    margin-right: 14px;
+    background-color: #355c7d;
+    color: white;
+    border: none;
+    padding: 3px 6px 3px 6px;
+}

@@ -1,0 +1,27 @@
+#header {
+    background-color: #355c7d;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+    display: flex;
+    color: white;
+    height: 7vh;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#header__icon {
+    padding-left: 0.5vw;
+}
+
+#header__title {
+    margin-right: 0vw;
+}
+
+#header__left {
+    display: flex;
+    align-items: center;
+}
+
+#header__link {
+    color: white;
+}

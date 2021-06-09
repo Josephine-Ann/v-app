@@ -1,0 +1,32 @@
+#time-slot__card {
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #355c7d;
+    margin-top: 0.5vh;
+}
+
+@media only screen and (min-width: 500px) {
+    .time-slot__button {
+        width: 7vw
+    }
+}
+
+.time-slot__button {
+    background-color: white;
+    border: none;
+    padding: 0.4vw;
+}
+
+@media only screen and (max-width: 500px) {
+    #time-slot__card {
+        flex-direction: column;
+        font-size: 0.85em;
+    }
+    .time-slot__button {
+        width: 14vw
+    }
+}

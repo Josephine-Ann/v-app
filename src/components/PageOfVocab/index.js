@@ -1,0 +1,1 @@
+export { PageOfVocab } from './PageOfVocab.js'

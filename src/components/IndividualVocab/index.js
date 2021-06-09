@@ -1,0 +1,1 @@
+export { IndividualVocab } from './IndividualVocab.js'
